@@ -175,13 +175,15 @@ class Splash extends StatelessWidget {
           // Rounded container below the button
           const SizedBox(height: 10),
           Container(
-            width: 60, // Wider than the button
+         
+            width: 150, // Wider than the button
             height: 3, // Thin rectangle height
             decoration: BoxDecoration(
               color: const Color(0xFFebdddd), // Light beige color
               borderRadius: BorderRadius.circular(12), // Rounded edges
             ),
           ),
+          SizedBox(height: 10,)
         ],
       ),
     );
