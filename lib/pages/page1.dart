@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Page1 extends StatefulWidget {
@@ -77,7 +78,9 @@ class _Page1State extends State<Page1> {
                       ),
                       const SizedBox(width: 25),
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                            Get.toNamed('/Page2');
+                        },
                          style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFF6A4A4A), // Background color
                   shape: RoundedRectangleBorder(
@@ -108,7 +111,7 @@ class _Page1State extends State<Page1> {
     ElevatedButton(
       onPressed: () {},
       style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF6A4A4A), // Background color
+                  backgroundColor: const Color.fromARGB(255, 106, 74, 74), // Background color
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12), // Rounded corners
                   ),
