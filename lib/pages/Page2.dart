@@ -12,6 +12,9 @@ class Page2 extends StatefulWidget {
 class _Page2State extends State<Page2> {
   @override
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
+  
+
     return Scaffold(
       backgroundColor: const Color.fromRGBO(251, 217, 197, 1),
       body: SingleChildScrollView(
@@ -111,6 +114,17 @@ class _Page2State extends State<Page2> {
                   style: TextStyle(color: Colors.white),
                 ),
               ),
+                Positioned(
+            bottom: 10,
+            child: Container(
+              width: screenWidth * 0.50,
+              height: 4,
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 0, 0, 0),
+                borderRadius: BorderRadius.circular(12),
+              ),
+            ),
+          ),
             ],
           ),
         ),
