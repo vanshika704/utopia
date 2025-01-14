@@ -77,7 +77,7 @@ class _Page2State extends State<Page2> {
                   ),
                   const SizedBox(height: 16.0),
 
-                  // Phone Number Text Field with reduced width
+                  // Phone Number Text Field 
                   Container(
                     width: MediaQuery.of(context).size.width * 0.8, // Set custom width here
                     child: TextFormField(
