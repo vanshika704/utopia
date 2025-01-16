@@ -43,6 +43,8 @@ dependencies:
   porcupine_flutter: ^3.0.4
   flutter_background_service: ^5.1.0
   camera: ^0.11.0+2
+  location: ^7.0.1
+  picovoice_flutter: ^3.0.4
 
 dev_dependencies:
   flutter_test:
