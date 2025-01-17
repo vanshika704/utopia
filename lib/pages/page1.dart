@@ -57,10 +57,12 @@ class _Page1State extends State<Page1> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.toNamed("/login");
+                        },
                          style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFFCA9797)
-, // Background color
+,  
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12), // Rounded corners
                   ),

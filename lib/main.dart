@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
+import 'package:utopia/pages/Login.dart';
 import 'package:utopia/pages/Page2.dart';
 import 'package:utopia/pages/page1.dart';
 import 'package:utopia/pages/page3.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
         GetPage(name: '/home', page: () => Page1()), // Home screen route
          GetPage(name: '/Page2', page: () => SignupPage()),
           GetPage(name: '/Page3', page: () => VoiceButtonPage()),
+           GetPage(name: '/login', page: () => LoginPage()),
       ],
     );
   }
