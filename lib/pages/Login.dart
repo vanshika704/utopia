@@ -48,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
         print("User logged in: ${data['user']}");
 
         // Navigate to Page3 (Pass user data if necessary)
-        Get.to(VoiceButtonPage()); // Navigate to Page3 and pass user data
+        Get.off(VoiceButtonPage()); // Navigate to Page3 and pass user data
 
       } else {
         // Handle errors better

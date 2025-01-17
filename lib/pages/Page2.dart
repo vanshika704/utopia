@@ -65,7 +65,7 @@ class _SignupPageState extends State<SignupPage> {
               TextButton(
                 onPressed: () {
                   Navigator.of(context).pop(); // Close the modal
-                  Get.to(VoiceButtonPage()); // Navigate to Page3
+                  Get.off(VoiceButtonPage()); // Navigate to Page3
                 },
                 child: Text("OK"),
               ),
