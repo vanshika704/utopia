@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       getPages: [
         GetPage(name: '/splash', page: () => Splash()), // Splash screen route
         GetPage(name: '/home', page: () => Page1()), // Home screen route
-         GetPage(name: '/Page2', page: () => Page2()),
+         GetPage(name: '/Page2', page: () => SignupPage()),
           GetPage(name: '/Page3', page: () => VoiceButtonPage()),
       ],
     );
