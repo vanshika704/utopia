@@ -95,7 +95,7 @@ class _LoginPageState extends State<LoginPage> {
                   buildTextField(emailController, "Email", Icons.email),
                   const SizedBox(height: 16.0),
                   buildTextField(passwordController, "Password", Icons.lock, isPassword: true),
-                  const SizedBox(height: 25.0),
+                  const SizedBox(height: 75.0),
                   ElevatedButton(
                     onPressed: loginUser,
                     style: ElevatedButton.styleFrom(
@@ -103,11 +103,12 @@ class _LoginPageState extends State<LoginPage> {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
-                      padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 12.0),
+                      
+                      padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 16.0),
                     ),
                     child: const Text(
                       "Login",
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.white , fontSize: 16),
                     ),
                   ),
                 ],
