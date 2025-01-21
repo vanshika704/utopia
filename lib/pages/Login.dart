@@ -18,7 +18,7 @@ class _LoginPageState extends State<LoginPage> {
 
   // Function to handle login
   Future<void> loginUser() async {
-    final String apiUrl = "http://192.168.1.13:5000/api/users/login"; // Replace with your local IP
+    final String apiUrl = "https://utopiaa-rqkd.onrender.com/api/users/login"; // Replace with your local IP
 
     try {
       final response = await http.post(

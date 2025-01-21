@@ -21,7 +21,7 @@ class _SignupPageState extends State<SignupPage> {
 
   // Function to handle signup
   Future<void> signupUser() async {
-    final String apiUrl = "http://192.168.1.13:5000/api/users/signup"; // Replace with your local IP
+    final String apiUrl = "https://utopiaa-rqkd.onrender.com/api/users/signup"; // Replace with your local IP
 
     // Validate the input fields
     if (nameController.text.isEmpty ||
